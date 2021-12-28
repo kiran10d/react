@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.9" y1="0.08" x2="0.094" y2="0.929" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3944b5"/>
+      <stop offset="1" stop-color="#00085a"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="37.854" cy="37.136" rx="37.854" ry="37.136" transform="translate(0)" fill="none"/>
+    </clipPath>
+    <filter id="Ellipse_1" x="15.925" y="16.507" width="72.016" height="72.016" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.546" x2="0.533" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8181"/>
+      <stop offset="0.508" stop-color="#f86565"/>
+      <stop offset="1" stop-color="#fe5959"/>
+    </linearGradient>
+    <clipPath id="clip-clockmonk_fav_icon">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="clockmonk_fav_icon" data-name="clockmonk fav icon" clip-path="url(#clip-clockmonk_fav_icon)">
+    <g id="Group_2" data-name="Group 2" transform="translate(0 0)">
+      <path id="Rectangle_1" data-name="Rectangle 1" d="M28.882,0H71.118A28.837,28.837,0,0,1,100,28.793V71.207A28.837,28.837,0,0,1,71.118,100H28.882A28.837,28.837,0,0,1,0,71.207V28.793A28.837,28.837,0,0,1,28.882,0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="37.6" cy="37.136" rx="37.6" ry="37.136" transform="translate(14.629 12.379)" fill="#020a5d"/>
+      <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(14.629 12.379)" clip-path="url(#clip-path)">
+        <g id="Path_1" data-name="Path 1" transform="translate(0.232 0.005)">
+          <path id="Path_13" data-name="Path 13" d="M37.46,0A37.307,37.307,0,1,1,0,37.306,37.383,37.383,0,0,1,37.46,0Z" fill="none"/>
+          <path id="Path_14" data-name="Path 14" d="M37.46.31a37.574,37.574,0,0,0-7.487.752A37.15,37.15,0,0,0,3.23,22.906,36.7,36.7,0,0,0,1.066,29.85a37.211,37.211,0,0,0,0,14.913,36.713,36.713,0,0,0,5.59,13.229,37.205,37.205,0,0,0,65.034-6.284,36.7,36.7,0,0,0,2.164-6.944,37.209,37.209,0,0,0,0-14.913,36.713,36.713,0,0,0-5.589-13.229A37.144,37.144,0,0,0,37.46.31m0-.31A37.307,37.307,0,1,1,0,37.306,37.383,37.383,0,0,1,37.46,0Z" fill="rgba(0,0,0,0.1)"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_1)">
+        <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="27.008" cy="27.008" r="27.008" transform="translate(24.93 22.51)" fill="#fff"/>
+      </g>
+      <path id="Intersection_2" data-name="Intersection 2" d="M-1.04,43.984A37.813,37.813,0,0,1,36.884,6.332,36.349,36.349,0,0,1,69.007,24.837c1.934,3.209.645,6.525-1.934,7.7-2.471,1.284-5.8.642-7.091-1.925A26.846,26.846,0,0,0,9.918,43.984C9.918,58.745,22.166,70.3,36.884,70.3A26.878,26.878,0,0,0,59.338,58.1c1.289-2.567,5.264-3.209,7.091-1.284,2.578,1.284,3.868,4.6,1.934,7.06A37.149,37.149,0,0,1,36.884,81.208C16.257,81.208-1.04,64.521-1.04,43.984Z" transform="translate(15.533 5.845)" fill="url(#linear-gradient-2)"/>
+      <g id="Group_1" data-name="Group 1" transform="translate(36.54 32.043)">
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="1.238" height="24.768" rx="0.619" transform="translate(15.923 14.423) rotate(13)" fill="#f77"/>
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="2.167" height="24.149" rx="1.084" transform="translate(28.701 0) rotate(39)" fill="#101974"/>
+        <rect id="Rectangle_4" data-name="Rectangle 4" width="2.167" height="21.827" rx="1.084" transform="matrix(0.602, -0.799, 0.799, 0.602, 0, 6.676)" fill="#101974"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="3.251" cy="3.251" r="3.251" transform="translate(12.656 14.09)" fill="#101974"/>
+      </g>
+    </g>
+  </g>
+</svg>
