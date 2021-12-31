@@ -18,21 +18,23 @@ export const fadeDown = {
   },
 };
 export const fadeRight = {
-  hidden: { x: -500, opacity: 0 },
+  hidden: { x: "-50vw", opacity: 0 },
   visible: {
     x: 0,
     opacity: 1,
   },
 };
 export const bounceRight = {
-  hidden: { x: -500, opacity: 0 },
+  hidden: { x: "-100vh", opacity: 0 },
   visible: {
     x: 0,
     opacity: 1,
     transition: {
       type: "spring",
-      stiffness: 100,
-      damping: 10,
+      // stiffness: 100,
+      // damping: 10,
+      bounce: 0.4,
+      duration: 0.9,
     },
   },
 };

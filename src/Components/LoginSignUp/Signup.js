@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import LoginBg from "../../Assets/login-bg.png";
 import FormBg from "../../Assets/login-form.png";
-import { fadeRight } from "../../Animation";
+import { bounceRight } from "../../Animation";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 function Signup() {
@@ -11,14 +11,14 @@ function Signup() {
 
   // console.log("dataaaaa", data);
 
-  const controls = useAnimation();
+  const animate = useAnimation();
   const [ref, inView] = useInView();
 
   useEffect(() => {
     if (inView) {
-      controls.start("visible");
+      animate.start("visible");
     }
-  }, [controls, inView]);
+  }, [animate, inView]);
 
   const handle = (e) => {
     e.preventDefault();
@@ -49,9 +49,9 @@ function Signup() {
             <motion.div
               ref={ref}
               className="form"
-              variants={fadeRight}
+              variants={bounceRight}
               initial="hidden"
-              animate={controls}
+              animate={animate}
               transition={{ duration: 1, ease: "easeOut" }}
             >
               <StyledForm>
